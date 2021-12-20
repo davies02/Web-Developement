@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>My Website</title>
+		<link rel="stylesheet" type="text/css" href="css folder/style.css">
+</head>
+
+	<body>
+		<style type="text/css">
+		#main-header{
+			text-align: center;
+			background-color: black;
+			color: white;
+			padding: 10px;
+		}
+
+		#main-footer{
+			text-align: center;
+			font-size: 18px;
+		}
+		</style>
+		<header id="main-header">
+			<h1>Service Page</h1>
+		</header>
+
+		<p>
+					<!-- Type "Loren", then hit tab to get filler text -->
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt <strong>ut labore et dolore magna aliqua</strong> Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute <em>irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore</em> eu fugiat nulla pariatur. <a href="http://google.com">SAME TAB LINK</a> occaecat cupidatat non
+					proident, sunt <a href="http://google.com" target="_blank">NEW TAB LINK</a> deserunt mollit anim id est laborum.
+				</p>
+
+				<!-- Table -->
+				<table>
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Email</th>
+							<th>Age</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Sean Davies</td>
+							<td>sean@something.org</td>
+							<td>17</td>
+						</tr>
+						<tr>
+							<td>John Doe</td>
+							<td>jdoe@something.org</td>
+							<td>35</td>
+						</tr>
+						<tr>
+							<td>Thomas Pete</td>
+							<td>tdawg@something.org</td>
+							<td>26</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<!-- Line break -->
+				<br>
+				<!-- Horizontal Line -->
+				<hr>
+				<br>
+				<!-- Forms -->
+				<!-- Only look, no function; would go to server with ex.php; <form action="process.php" method="POST"> -->
+				<form action="process.php" method="POST">
+					<!-- Moving things to different lines -->
+					<div>
+						<label>First Name</label>
+						<input type="text" name="firstName" placeholder="Enter First Name">
+					<br>
+					<div>
+						<label>Last Name</label>
+						<input type="text" name="lastName" placeholder="Enter Last Name">
+					</div>
+					<br>
+					<div>
+						<label>Email</label>
+						<input type="email" name="email" placeholder="Enter Email Here...">
+					</div>
+					<br>
+					<div>
+						<label>Message</label>
+						<textarea name="message" placeholder="Enter Message Here"></textarea>
+					</div>
+					<br>
+					<div>
+						<label>Gender</label>
+						<select name="gender">
+							<option name="male">Male</option>
+							<option name="female">Female</option>
+							<option name="other">Other</option>
+						</select>
+					</div>
+					<br>
+						<div>
+							<label>Age:</label>
+							<input type="number" name="age" value="30">
+						</div>
+						<br>
+						<div>
+							<label>Birthday:</label>
+							<input type="date" name="birthday" placeholder="mm/dd/yy">
+						</div>
+						<br>
+						<input type="submit" name="submit" value="Submit">
+				</form>
+						
+				<hr>
+				<br>
+	<footer id="main-footer">
+		<p>Copyright &copy; 2020 My Website</p>
+	</footer>
+</body>
+</html>
